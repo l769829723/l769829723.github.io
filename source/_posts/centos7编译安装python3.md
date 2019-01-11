@@ -1,7 +1,7 @@
 ---
 title: centos7编译安装python3
 date: 2019-01-09 14:40:02
-tags:
+tags: python3
 ---
 
 > 安装系统开发工具包

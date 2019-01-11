@@ -1,7 +1,7 @@
 ---
 title: pip下载包并编译为wheel
 date: 2019-01-09 15:17:17
-tags:
+tags: python, pip
 ---
 
 ## 离线下载
