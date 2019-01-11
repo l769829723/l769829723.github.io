@@ -12,9 +12,14 @@
         a(href="/about")= __('About')
     li
       if is_archive()
-        a.current(href="/archives")= __('Archive')
+        a.current(href="/archives")= __('Archives')
       else
-        a(href="/archives")= __('Archive')
+        a(href="/archives")= __('Archives')
+    li
+      if is_tag()
+        a.current(href="/tag")= __('Tags')
+      else
+        a(href="/tag")=__('Tags')
     li
       if is_current('links')
         a.current(href="/links")= __('Links')					
