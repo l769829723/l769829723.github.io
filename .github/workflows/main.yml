@@ -32,4 +32,7 @@ jobs:
       run: npm install
       
     - name: Generate pages
-      run: ./node_modules/.bin/hexo --version
+      run: ./node_modules/.bin/hexo generate
+
+    - name: Publish pages
+      run: ./node_modules/.bin/hexo deploy
