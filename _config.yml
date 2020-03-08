@@ -88,5 +88,5 @@ deploy:
   type: git
   repo: 
     github: https://github.com/l769829723/l769829723.github.io.git
-    coding: https://git.coding.net/l769829723/hexo.git
+    coding: https://e.coding.net/grapecola/myblog.git
   branch: master
